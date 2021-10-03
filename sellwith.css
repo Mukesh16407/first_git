@@ -1,0 +1,128 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+
+h2{
+ color:  rgb(80,80,80);
+ font-size: 30px;
+ padding: 10px;
+}
+
+.maindiv{
+    display: flex;
+    width: 70%;
+   
+    margin: auto;
+    
+  
+    
+}
+#left{
+  
+   border-radius: 5px;
+   background-color: white;
+   width: 55%;
+   margin-top: -20px;
+   box-shadow: 2px 2px 6px rgb(0 0 0/20%);
+}
+#right{
+  
+  width: 40%;
+  margin-left: 8%;
+  
+}
+.contener{
+ 
+  width: 100%;
+  
+ 
+}
+.firstcol{
+
+  display:inline-block;
+  margin: 0.7%;
+ 
+ 
+ width: 48%;
+ 
+}
+.firstcol > div{
+  padding: 1%;
+}
+
+ label{
+ width: 100%;
+ 
+ font-size: 12px;
+ margin-bottom: 8px;
+ color: #8a8a8a;
+ }
+ input{
+  width: 200px;
+  height: 30px;
+ 
+  padding-top: 8px;
+  border-radius: 3px;
+  }
+
+.secondcol{
+  display:inline-block;
+
+  margin: 0.7%;
+  width: 48%;
+  
+ }
+ .secondcol > div{
+   padding: 1%;
+ }
+form{
+ 
+  width: 80%;
+  padding: 2%;
+ 
+  margin: 20px 20px;
+}
+.threesection{
+ 
+ padding-top: 8px;
+ width: 200px;
+ height: 30px;
+ color: #413d3d;
+}
+
+.submitbutton  {
+  
+  margin-top:20px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+button {
+  
+  width: 200px;
+  height: 40px;
+  background-color:rgb(81,201,166);
+  font-size: 24px;
+  color: white;
+}
+#right{
+  padding: 0px 15px;
+}
+h3{
+  margin: 20px 0px 10px;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: justify;
+  color: #505050;
+}
+p{
+  margin: 5px 0px;
+  font-size: 12px;
+  text-align: justify;
+  
+}
